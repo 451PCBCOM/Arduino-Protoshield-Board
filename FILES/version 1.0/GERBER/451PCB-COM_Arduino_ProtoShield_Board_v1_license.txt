@@ -1,0 +1,7 @@
+
+Thes files of this project are licensed as open source hardware for free distribution.
+
+You can open and modify the files with a gerber viewer/editor.
+
+PCB designed by 451PCB.COM
+ 
