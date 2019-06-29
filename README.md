@@ -1,2 +1,3 @@
 # Arduino-Protoshield-Board
-Arduino Protoshield Board
+Open source Hardware 
+451PCB Arduino Protoshield Board
