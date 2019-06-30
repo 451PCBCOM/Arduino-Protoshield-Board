@@ -1,0 +1,192 @@
+EESchema Schematic File Version 4
+LIBS:451pcb-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Protoshield Board v1.0"
+Date "2019-06-18"
+Rev "1"
+Comp "451PCB.COM"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6750 4800 6750 4500
+Wire Wire Line
+	6650 4800 6650 4500
+Wire Wire Line
+	6550 4800 6550 4500
+Wire Wire Line
+	6450 4800 6450 4500
+Wire Wire Line
+	6350 4800 6350 4500
+Wire Wire Line
+	6250 4800 6250 4500
+Wire Wire Line
+	6150 4800 6150 4500
+Wire Wire Line
+	6050 4800 6050 4500
+$Comp
+L Connector_Generic:Conn_01x08 DIGITAL-2
+U 1 1 5CEDC55C
+P 7450 1700
+F 0 "DIGITAL-2" H 7530 1692 50  0000 L CNN
+F 1 "Conn_01x08" H 7530 1601 50  0000 L CNN
+F 2 "" H 7450 1700 50  0001 C CNN
+F 3 "~" H 7450 1700 50  0001 C CNN
+	1    7450 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 DIGITAL-1
+U 1 1 5CEDC562
+P 7450 2400
+F 0 "DIGITAL-1" H 7530 2392 50  0000 L CNN
+F 1 "Conn_01x08" H 7530 2301 50  0000 L CNN
+F 2 "" H 7450 2400 50  0001 C CNN
+F 3 "~" H 7450 2400 50  0001 C CNN
+	1    7450 2400
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7150 2200 7150 1900
+Wire Wire Line
+	7250 2200 7250 1900
+Wire Wire Line
+	7350 2200 7350 1900
+Wire Wire Line
+	7450 2200 7450 1900
+Wire Wire Line
+	7550 2200 7550 1900
+Wire Wire Line
+	7650 2200 7650 1900
+Wire Wire Line
+	7750 2200 7750 1900
+Wire Wire Line
+	7850 2200 7850 1900
+$Comp
+L Connector_Generic:Conn_01x10 DIGITAL-3
+U 1 1 5CEEED50
+P 6250 2400
+F 0 "DIGITAL-3" H 6168 1675 50  0000 C CNN
+F 1 "Conn_01x10" H 6168 1766 50  0000 C CNN
+F 2 "" H 6250 2400 50  0001 C CNN
+F 3 "~" H 6250 2400 50  0001 C CNN
+	1    6250 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 DIGITAL-4
+U 1 1 5CEF4321
+P 6250 1700
+F 0 "DIGITAL-4" H 6168 975 50  0000 C CNN
+F 1 "Conn_01x10" H 6168 1066 50  0000 C CNN
+F 2 "" H 6250 1700 50  0001 C CNN
+F 3 "~" H 6250 1700 50  0001 C CNN
+	1    6250 1700
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even SPI
+U 1 1 5CF11060
+P 8200 3450
+F 0 "SPI" V 8204 3630 50  0000 L CNN
+F 1 "Conn_02x03_Odd_Even" V 8295 3630 50  0000 L CNN
+F 2 "" H 8200 3450 50  0001 C CNN
+F 3 "~" H 8200 3450 50  0001 C CNN
+	1    8200 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4500 7700 4750
+Wire Wire Line
+	7600 4500 7600 4750
+Wire Wire Line
+	7500 4500 7500 4750
+Wire Wire Line
+	7400 4500 7400 4750
+Wire Wire Line
+	7300 4500 7300 4750
+Wire Wire Line
+	7200 4500 7200 4750
+Wire Wire Line
+	6650 1900 6650 2200
+Wire Wire Line
+	6550 1900 6550 2200
+Wire Wire Line
+	6450 1900 6450 2200
+Wire Wire Line
+	6350 1900 6350 2200
+Wire Wire Line
+	6250 1900 6250 2200
+Wire Wire Line
+	6150 1900 6150 2200
+Wire Wire Line
+	6050 1900 6050 2200
+Wire Wire Line
+	5950 1900 5950 2200
+Wire Wire Line
+	5850 1900 5850 2200
+Wire Wire Line
+	5750 1900 5750 2200
+$Comp
+L Connector_Generic:Conn_01x06 ANALOG-1
+U 1 1 5CEEB46D
+P 7500 4300
+F 0 "ANALOG-1" H 7418 3775 50  0000 C CNN
+F 1 "Conn_01x06" H 7418 3866 50  0000 C CNN
+F 2 "" H 7500 4300 50  0001 C CNN
+F 3 "~" H 7500 4300 50  0001 C CNN
+	1    7500 4300
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 POWER-1
+U 1 1 5CB6F89C
+P 6450 4300
+F 0 "POWER-1" H 6530 4292 50  0000 L CNN
+F 1 "Conn_01x08" H 6530 4201 50  0000 L CNN
+F 2 "" H 6450 4300 50  0001 C CNN
+F 3 "~" H 6450 4300 50  0001 C CNN
+	1    6450 4300
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 ANALOG-2
+U 1 1 5CEE8DEF
+P 7500 4950
+F 0 "ANALOG-2" H 7418 4425 50  0000 C CNN
+F 1 "Conn_01x06" H 7418 4516 50  0000 C CNN
+F 2 "" H 7500 4950 50  0001 C CNN
+F 3 "~" H 7500 4950 50  0001 C CNN
+	1    7500 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 POWER-2
+U 1 1 5CE1B81F
+P 6450 5000
+F 0 "POWER-2" H 6530 4992 50  0000 L CNN
+F 1 "Conn_01x08" H 6530 4901 50  0000 L CNN
+F 2 "" H 6450 5000 50  0001 C CNN
+F 3 "~" H 6450 5000 50  0001 C CNN
+	1    6450 5000
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	3800 1100 8500 1100
+Wire Notes Line
+	8500 2650 9000 2650
+Wire Notes Line
+	9000 2650 9000 5700
+Wire Notes Line
+	9000 5700 3800 5700
+Wire Notes Line
+	3800 1100 3800 5700
+Wire Notes Line
+	8500 1100 8500 2650
+$EndSCHEMATC
