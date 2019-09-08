@@ -1,1 +1,1 @@
-# Open source files of the "451PCB Protoshield board for Arduino".
+# "451PCB Protoshield board for Arduino" open source code files.
