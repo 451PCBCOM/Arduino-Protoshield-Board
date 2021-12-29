@@ -1,0 +1,13 @@
+Drill Report
+Drill File: C:\Users\gerber\protoshield2\cam.drl
+Format: 2.3
+Units: English (Inch)
+Step & Repeat Codes Used: NO
+
+
+TOOL        SIZE        COUNT
+====        ======      =====
+
+ 1      0.0354      6      <-- Plated   
+ 2      0.0394      465    <-- Plated
+ 3      0.1260      4
