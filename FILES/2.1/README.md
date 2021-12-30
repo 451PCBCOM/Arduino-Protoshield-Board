@@ -1,1 +1,6 @@
-451PCB Protoshield board Version 2.1 for Arduino UNO R3 open source GERBER files.
+451PCB Protoshield board Version 2.1 for Arduino UNO R3 open source hardware files.
+
+Silkcreen little changes on TOP and BOTTOM sides:
+- Deleted raspberry connector marks.
+- Change letters for pad numbers. 
+
